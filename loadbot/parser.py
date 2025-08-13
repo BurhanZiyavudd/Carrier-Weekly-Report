@@ -6,9 +6,9 @@ from typing import Optional
 
 from pydantic import BaseModel, field_validator
 from openai import OpenAI
-from loadbot.config import AI_TOKEN
+from loadbot.config import OPENAI_API_KEY
 
-client = OpenAI(api_key=AI_TOKEN)
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 class ExtractedLoad(BaseModel):
     load_number: Optional[str] = None
