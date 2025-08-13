@@ -13,7 +13,7 @@ from itertools import chain
 import pandas as pd
 import difflib
 
-from config import BOT_TOKEN
+from loadbot.config import BOT_TOKEN
 from loadbot.excel_file_writer import save_json_to_excel, flatten_dict
 from loadbot.ocr import extract_info_from_file
 from loadbot.parser import get_json
