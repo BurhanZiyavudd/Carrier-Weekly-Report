@@ -1,0 +1,13 @@
+.DS_Store
+
+__pycache__/
+*.pyc
+
+*.log
+
+.env
+
+.idea/
+
+loadbot/reports/
+loadbot/downloads/
